@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: darkgoldenrod;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: larger;
+}
+header p {
+  margin-left: 50px;
+}
+.main {
+  background-color: rgb(156, 158, 158);
+  display: flex;
+  justify-content: center;
+}
+.main .elementInput {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+  width: 300px;
+  height: 80px;
+}
+.main .elementInput h5 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.main .elementInput .mainInput {
+  margin-left: 10px;
+  border: none;
+  outline: none;
+}
+.elementInput .addNote {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 0);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 260px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-color: rgb(156, 158, 158);
+}
+.element .note {
+  width: auto;
+  height: 50px;
+}
+
+.element {
+  background-color: aliceblue;
+  width: 260px;
+  height: 70px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.delete {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 0);
+  border-radius: 50%;
+  margin-left: 240px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: black;
+}
