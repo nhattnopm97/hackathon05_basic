@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.20, for Win64 (x86_64)
 --
--- Host: localhost    Database: keepnote
+-- Host: localhost    Database: course
 -- ------------------------------------------------------
 -- Server version	8.0.20
 
@@ -16,27 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `notes`
+-- Dumping data for table `tbl_courses`
 --
 
-DROP TABLE IF EXISTS `notes`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `notes` (
-  `noteId` int NOT NULL AUTO_INCREMENT,
-  `title` varchar(45) NOT NULL,
-  PRIMARY KEY (`noteId`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `notes`
---
-
-LOCK TABLES `notes` WRITE;
-/*!40000 ALTER TABLE `notes` DISABLE KEYS */;
-INSERT INTO `notes` VALUES (1,'hello world'),(3,'tao la bo may'),(5,'ádfsdafsadf'),(6,'aaaaaaaaaaaaaaaa'),(7,'ádfsad ádf ád ');
-/*!40000 ALTER TABLE `notes` ENABLE KEYS */;
+LOCK TABLES `tbl_courses` WRITE;
+/*!40000 ALTER TABLE `tbl_courses` DISABLE KEYS */;
+INSERT INTO `tbl_courses` VALUES (1,'2023-12-01','pendding','cuong','a'),(3,'2023-05-13','pedding','nhat','js'),(4,'2023-05-25','pedding','quy a','java aaaaaaaaa'),(8,'2023-05-04','fullfil','nhat1202','react');
+/*!40000 ALTER TABLE `tbl_courses` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -48,4 +34,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-05-26 10:36:03
+-- Dump completed on 2023-05-26 17:47:44
